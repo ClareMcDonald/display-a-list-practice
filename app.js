@@ -1,8 +1,11 @@
 // import functions and grab DOM elements
 import { renderCandy } from './render-candy.js';
 import { renderMyCats } from './render-my-cats.js';
+import { renderHomegood } from './render-homegood.js';
 import { candies } from './candies.js';
 import { myCats } from './array-my-cats.js';
+import { homegoods } from './array-homegoods.js';
+
 const candiesEl = document.getElementById('candies-list');
 
 for (let candy of candies) {
@@ -20,7 +23,13 @@ for (let cat of myCats) {
     myCatsEl.append(catEl);
 }
 
+const homeGoodsEl = document.getElementById('homegoods-list');
 
+for (let homegood of homegoods) {
+    const homegoodEl = renderHomegood(homegood);
+    homeGoodsEl.append(homegoodEl);
+  
+}
 
 
 
