@@ -6,7 +6,7 @@ export function renderPost(postItem) {
     const replyTwoEl = document.createElement('p');
     const replyThreeEl = document.createElement('p');
 
-    postDiv.classList.add = 'post';
+    postDiv.classList.add('post');
     
     questionEl.textContent = postItem.question;
     userEl.textContent = postItem.user;

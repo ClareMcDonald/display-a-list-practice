@@ -4,7 +4,7 @@ export function renderMyCats(catItem) {
     const ageEl = document.createElement('p');
     const colorEl = document.createElement('p');
 
-    catEl.classList.add = 'cats';
+    catEl.classList.add('cats');
 
     
     nameEl.textContent = catItem.name;

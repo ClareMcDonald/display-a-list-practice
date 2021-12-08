@@ -6,8 +6,8 @@ export function renderHomegood(homegoodItem) {
     const nameEl = document.createElement('p');
     const ageEl = document.createElement('p');
 
-    homegoodEl.classList.add = 'homegood';
-    makerEl.classList.add = 'maker';
+    homegoodEl.classList.add('homegood');
+    makerEl.classList.add('maker');
 
     typeEl.textContent = homegoodItem.type;
     purposeEl.textContent = homegoodItem.purpose;
